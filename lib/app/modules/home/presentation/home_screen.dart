@@ -121,8 +121,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: AppSpacing.h20,
                       ),
                       ReusableCoinContainer(
-                        text: AppText.gold,
-                        description: AppText.goldDesc,
+                        text: AppText.silver,
+                        description: AppText.silverDesc,
                         gradient1: AppColour.silverContainerGradientColour1,
                         gradient2: AppColour.silverContainerGradientColour2,
                       ),
@@ -130,8 +130,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: AppSpacing.h20,
                       ),
                       ReusableCoinContainer(
-                        text: AppText.gold,
-                        description: AppText.goldDesc,
+                        text: AppText.platinum,
+                        description: AppText.platinumDesc,
                         gradient1: AppColour.platinumContainerGradientColour1,
                         gradient2: AppColour.platinumContainerGradientColour2,
                       ),
