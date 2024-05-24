@@ -1,0 +1,48 @@
+name: intership_task
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  go_router: ^14.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/snapshot/
+
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans-VariableFont_opsz,wght.ttf
+    - family: SFPRODISPLAYREGULAR
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYREGULAR.OTF
+
